@@ -23,51 +23,30 @@ https://github.com/anmolsodhi848-wq/Urban-Vehicle-Theft-Risk-Pattern-Analysis-in
 
 ## Process
 
-**1️. Data Cleaning (Excel)**
-  
-  1.1. Removed duplicates and inconsistencies
-  
-  1.2. Standardized categorical fields (Region, Vehicle Type, Make, Color)
-  
-  1.3. Handled missing/null values
-  
-  1.4. Extracted Month and Year from Date
-  
-  1.5. Created Model Year bins
-  
-  1.6. Ensured proper formatting and data types
+1. ## Data Cleaning
+   1. Removed duplicates and inconsistencies
+   2. Standardized categorical fields (Region, Vehicle Type, Make, Color)
+   3. Handled missing/null values
+   4. Extracted Month and Year from Date
+   5. Created Model Year bins
+   6. Ensured proper formatting and data types
 
+2. ## Data Visualization & Modeling
+   1. Created calculated fields (COUNT, AVG, Model Year Bins)
+   2. Designed KPI Cards
+   3. Built Monthly Trend Line (Time-Series Analysis)
+   4. Developed Geographic Map (Regional Risk Analysis)
+   5. Created Vehicle Type vs Make Type Bar Chart
+   6. Built Vehicle Color Distribution Pie Chart
+   7. Developed Model Year Distribution Histogram
+   8. Implemented interactive filters (Region, Make, Month, Model Year, Vehicle Type, Color)
 
-**2. Data Visualization & Modeling (Tableau)**
-  
-  2.1. Created calculated fields (COUNT, AVG, Model Year Bins)
-  
-  2.2. Designed KPI Cards
-  
-  2.3. Built Monthly Trend Line (Time-Series Analysis)
-  
-  2.4. Developed Geographic Map (Regional Risk Analysis)
-  
-  2.5. Created Vehicle Type vs Make Type Bar Chart
-  
-  2.6. Built Vehicle Color Distribution Pie Chart
-  
-  2.7. Developed Model Year Distribution Histogram
-  
-  2.8. Implemented interactive filters (Region, Make, Month, Model Year, Vehicle Type, Color)
-
-
-**3. Dashboard Design**
-  
-  3.1. Executive-style layout
-  
-  3.2. KPI summary at top
-  
-  3.3. Trend and geographic analysis in the middle
-  
-  3.4. Detailed breakdown visuals at the bottom
-  
-  3.5. Clean, minimal, and decision-focused design
+3. ## Dashboard Design
+   1. Executive-style layout
+   2. KPI summary at top
+   3. Trend and geographic analysis in the middle
+   4. Detailed breakdown visuals at the bottom
+   5. Clean, minimal, and decision-focused design
 
 
 ## Dashboard
@@ -95,27 +74,19 @@ https://github.com/anmolsodhi848-wq/Urban-Vehicle-Theft-Risk-Pattern-Analysis-in
 
 ## Recommendations
  
-1. **For Law Enforcement**
-   
-   1.1. Increase patrol deployment in Auckland during peak months.
+1. ## For Law Enforcement
+   1. Increase patrol deployment in Auckland during peak months.
+   2. Focus monitoring on high-risk vehicle categories (older Toyota station wagons).
+   3. Use historical trend data for predictive deployment strategies.
 
-   1.2. Focus monitoring on high-risk vehicle categories (older Toyota station wagons).
+2. ## For Insurance Companies
+   1. Implement risk-adjusted premiums based on region, model year, and vehicle type.
+   2. Offer incentives for anti-theft technology installations.
 
-   1.3. Use historical trend data for predictive deployment strategies.
-
-2. **For Insurance Companies**
-
-   2.1. Implement risk-adjusted premiums based on region, model year, and vehicle type.
-
-   2.2. Offer incentives for anti-theft technology installations.
-
-3. **For Vehicle Owners**
-
-   3.1. Install immobilizers and GPS tracking systems.
-
-   3.2. Prioritize secure parking in high-risk regions and months.
-
-   3.3. Take additional precautions for pre-2010 vehicles.
+3. ## For Vehicle Owners
+   1. Install immobilizers and GPS tracking systems.
+   2. Prioritize secure parking in high-risk regions and months.
+   3. Take additional precautions for pre-2010 vehicles.
 
 
 ## Future Scope
